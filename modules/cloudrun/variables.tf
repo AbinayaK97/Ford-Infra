@@ -26,3 +26,9 @@ variable "port" {
   type        = number
   default     = 8080
 }
+
+variable "max_instance_count" {
+  description = " Maximum number of serving instances"
+  type        = number
+  default     = 1
+}
