@@ -3,7 +3,7 @@ terraform {
 
   backend "gcs" {
     bucket  = "tf-state-bucket-ford-poc"
-    prefix  = "cloudrun"
+    prefix  = "artifact_registry"
   }
 
   required_providers {

@@ -10,7 +10,13 @@ variable "format" {
 }
 
 variable "location" {
-  description = "Location in which cloudRun needs to be created"
+  description = "Location in which artifact registry needs to be created"
   type        = string
   default     = "us-east1"
+}
+
+variable "description" {
+  description = "Description of the artifact registr"
+  type        = string
+  default     = "Artifact registry for POC"
 }
